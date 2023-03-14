@@ -2,7 +2,7 @@ import psycopg2
 
 def connectDatabase():
   try:
-    conn = psycopg2.connect(database="indoor-localisation-2.0", user = "macpro", password = "postgres", host = "indoor-localisation.c4hb7kkxkku2.ap-southeast-1.rds.amazonaws.com", port = "5432")
+    conn = psycopg2.connect(database="indoor-localisation", user = "macpro", password = "postgres", host = "127.0.0.1", port = "5432")
     print ("Opened database successfully")
     return conn
   except psycopg2.DatabaseError as error:
