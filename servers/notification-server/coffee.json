@@ -1,0 +1,9 @@
+{
+    "apps": [
+        {
+            "name": "coffee",
+            "script": "./server.js"
+            
+        }
+    ]
+}
