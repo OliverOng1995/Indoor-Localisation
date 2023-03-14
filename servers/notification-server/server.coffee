@@ -47,8 +47,8 @@ connectServer = ->
   pool = new pg.Pool({
   user: 'macpro',
   host: '127.0.0.1',
-  database: 'indoor-localization-2.0',
-  # password: 123,
+  database: 'indoor-localisation',
+  # password: postgres,
   port: 5432});
   # pool.query("SELECT * FROM beacon", (err, res) => console.log err)
   # pool.end()
