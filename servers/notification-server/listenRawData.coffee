@@ -8,7 +8,7 @@ config    = require '../config'
 ########################################################################
 
 # beaconData        = zmq.socket('pull').bind(config.zmqSockets.beaconData.pushpull)
-rawData           = zmq.socket('pull').bind("tcp://137.132.165.139:5567")
+rawData           = zmq.socket('pull').bind("tcp://172.31.15.72:5567")
 
 # beaconData.on('message', (message) -> console.log(parseJSON(message)))
 # console.log message
