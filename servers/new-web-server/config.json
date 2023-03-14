@@ -1,14 +1,14 @@
 {
   "webServer": {
-    "ip":                     "52.77.184.100",
+    "ip":                     "13.214.139.214",
     "port":                   3001
   },
   "apiServer": {
     "rest": {
-      "url":                  "http://52.77.184.100:3000/api"
+      "url":                  "http://13.214.139.214:3000/api"
     },
     "graphql": {
-      "url":                  "http://52.77.184.100:3000/graphql"
+      "url":                  "http://13.214.139.214:3000/graphql"
     }
   },
   "elkServer": {
@@ -16,23 +16,23 @@
   },
   "pgServer": {
     "user":                   "macpro",
-    "database":               "indoor-localization-2.0",
+    "database":               "indoor-localisation",
     "password":               "",
     "host":                   "localhost",
     "port":                   5432
   },
   "zmqSockets": {
     "anchorData": {
-      "pushpull":             "tcp://54.179.193.123:5566"
+      "pushpull":             "tcp://172.31.15.72:5566"
     },
     "beaconData": {
-      "pushpull":             "tcp://54.179.193.123:5556"
+      "pushpull":             "tcp://172.31.15.72:5556"
     },
     "broker": {
-      "xpub":                 "tcp://54.179.193.123:5567",
-      "xsub":                 "tcp://54.179.193.123:5568",
-      "router":               "tcp://54.179.193.123:5570",
-      "dealer":               "tcp://54.179.193.123:5571"
+      "xpub":                 "tcp://172.31.15.72:5567",
+      "xsub":                 "tcp://172.31.15.72:5568",
+      "router":               "tcp://172.31.15.72:5570",
+      "dealer":               "tcp://172.31.15.72:5571"
     },
     "serverRequests": {
       "reqrep":               "tcp://54.179.193.123:5569"
