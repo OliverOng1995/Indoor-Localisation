@@ -4,9 +4,9 @@
     "connector": "memory"
   },
   "postgresql": {
-    "host": "indoor-localisation.clebjm5otlkj.ap-southeast-1.rds.amazonaws.com",
+    "host": "127.0.0.1",
     "port": 5432,
-    "database": "indoor-localization-2.0",
+    "database": "indoor-localization",
     "password": "postgres",
     "name": "postgresql",
     "connector": "postgresql",
