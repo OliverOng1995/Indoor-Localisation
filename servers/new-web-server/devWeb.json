@@ -1,0 +1,9 @@
+{
+    "apps": [
+        {
+            "name": "devWeb",
+            "script": "npm",
+            "args" : "start --port 3001"
+        }
+    ]
+}
