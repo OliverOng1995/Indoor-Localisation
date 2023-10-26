@@ -223,6 +223,7 @@ function sendSensorData(air_quality,humidity,temperature,light,CO2,sensorID) {
       // service:        '6e400001b5a3f393e0a9e50e24dcca9e',
       // characteristic: '6e400003b5a3f393e0a9e50e24dcca9e',
       anchorId: env.anchor,
+      gattName: env.host,
       air_quality:     air_quality, 
       humidity:           humidity,
       temperature:       temperature,
